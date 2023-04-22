@@ -1,0 +1,27 @@
+.container{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.container-title{
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+.container-content{
+    width: inherit;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #CACACA;
+    border-radius: 7px;
+    padding: 14px;
+}

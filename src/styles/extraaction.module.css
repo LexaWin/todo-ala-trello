@@ -1,0 +1,20 @@
+.extra-info{
+    width:fit-content;
+    font-size: 35px;
+    color: grey;
+    display: flex; 
+    align-items: flex-start;
+    gap: 3px;
+    padding-top: 2px;
+}
+.extra-info:hover{
+    cursor: pointer;
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    margin-top: 5px;
+    background: #929292;
+    border-radius: 50%;
+    display: inline-block;
+}

@@ -1,0 +1,55 @@
+.tag{
+    border-radius: 3px;
+    margin: 3px;
+}
+.tag > svg{
+    position: absolute;
+    opacity: 0;
+    left: 48px;
+    top: 3px;
+    width: 7px;
+    height: 7px;
+    transition-duration: 0.4s;
+}
+.tag:hover > svg{
+    opacity: 1;
+}
+.tag-sm{
+    width: 40px;
+    height: 18px;
+}
+
+.tag-md{
+    width: 60px;
+    height: 24px;
+}
+
+.tag-lg{
+    width: 90px;
+    height: 24px;
+}
+
+.tag-red{
+    background-color: #fed6cc;
+}
+.tag-violet{
+    background-color: #eee1fd;
+}
+.tag-green{
+    background-color: #baf8cf;
+}
+.tag-orange{
+    background-color: #ffdcb6;
+}
+.tag-blue{
+    background-color: #b8e5ff;
+}
+.tag-dark-blue{
+    background-color: #c6d9ff;
+}
+.tag-light-green{
+    background-color: #d8fcb0;
+}
+.tag-yellow{
+    background-color: #fff4c7;
+}

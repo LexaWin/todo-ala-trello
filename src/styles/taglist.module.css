@@ -1,0 +1,8 @@
+.tags{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.tags > div{
+    position: relative;
+}

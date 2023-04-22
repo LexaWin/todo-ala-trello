@@ -1,0 +1,21 @@
+.comment{
+    height: fit-content;
+}
+.comment-author{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.comment-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+    color: #565656; 
+    margin-top: 6px;
+}

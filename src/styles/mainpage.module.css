@@ -1,0 +1,15 @@
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    padding-top: 36px;
+    gap: 80px;
+    margin-left: 129px;
+}
+.filters{
+    display: flex;
+    gap: 28px
+}
+.tasks{
+    display: flex;
+    gap: 46px;
+}

@@ -1,0 +1,36 @@
+.multiselect{
+    position:relative;
+    width: 168px;
+    height: fit-content;
+}
+
+.multiselect > ul{
+    background-color: #D8D7D7;
+    list-style-type: none;
+    height: 146px;
+    width: 168px;
+    overflow: scroll;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    position: absolute;
+    top: 36px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1200;
+}
+.multiselect > ul > li{
+    transition-duration: 0.4s;
+    padding: 1px;
+    display: flex;
+    align-content: space-between;
+}
+.multiselect > ul > li:hover {
+    background-color: #7c7c7c;
+    filter: brightness(90%);
+}
+
+li > svg{
+    margin: 5px 0 0 17px;
+}

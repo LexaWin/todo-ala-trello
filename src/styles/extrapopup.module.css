@@ -1,0 +1,30 @@
+.popup{
+    box-sizing: border-box;
+    position: absolute;
+    width: 133px;
+    height: 62px;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+    flex-direction: column;
+    z-index: 100;
+}
+.popup > button{
+    position: absolute;
+    background-color: inherit;
+    left: 110px;
+}
+.popup-content{
+    margin: 12px 22px 12px 12px;
+    display: flex;
+    flex-direction: column;
+}
+.popup-content > div:hover{
+    text-decoration: underline;
+}
